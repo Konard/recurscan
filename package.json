@@ -1,0 +1,30 @@
+{
+  "name": "recurscan",
+  "version": "1.0.0",
+  "description": "A CLI tool to detect recursive functions in JavaScript files.",
+  "main": "bin/recurscan.js",
+  "bin": {
+    "recurscan": "./bin/recurscan.js"
+  },
+  "scripts": {
+    "start": "node bin/recurscan.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/konard/recurscan.git"
+  },
+  "keywords": [
+    "recursive",
+    "functions",
+    "javascript",
+    "cli",
+    "babel",
+    "traverse"
+  ],
+  "author": "konard",
+  "license": "Unlicense",
+  "dependencies": {
+    "@babel/parser": "^7.21.0",
+    "@babel/traverse": "^7.21.0"
+  }
+}
